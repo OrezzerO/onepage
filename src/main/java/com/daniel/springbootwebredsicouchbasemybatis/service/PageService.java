@@ -10,4 +10,6 @@ public interface PageService {
     Iterable<Page> queryAll();
 
     Page findByTitle(String title);
+
+    Page save(Page page);
 }

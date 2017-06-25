@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.daniel</groupId>
-	<artifactId>spring-boot-web-redsi-couchbase-mybatis</artifactId>
+	<artifactId>onepage</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>spring-boot-web-redsi-couchbase-mybatis</name>
-	<description>Demo project for Spring Boot</description>
+	<name>onepage</name>
+	<description>onepage</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -37,10 +37,6 @@
 			<artifactId>webmagic-extension</artifactId>
 			<version>0.7.2</version>
 		</dependency>
-
-
-
-
 
 		<dependency>
 			<groupId>mysql</groupId>
