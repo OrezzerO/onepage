@@ -1,5 +1,6 @@
-package com.daniel.springbootwebredsicouchbasemybatis.bean.entity;
+package com.daniel.onepage.bean.entity;
 
+import lombok.Generated;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -27,6 +28,12 @@ public class BaseEntity {
 
     @Column(name = "updateTime")
     private Date updateTime;
+
+
+    public static void main(String[] args) {
+       new BaseEntity().getId();
+       Page.builder().build().getId();
+    }
 
 
 }

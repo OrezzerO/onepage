@@ -1,4 +1,4 @@
-package com.daniel.springbootwebredsicouchbasemybatis.bean.entity;
+package com.daniel.onepage.bean.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -38,5 +38,5 @@ public class Page extends BaseEntity {
     private String url;
 
     @Column
-    private boolean isAvailable;
+    private Boolean isAvailable;
 }

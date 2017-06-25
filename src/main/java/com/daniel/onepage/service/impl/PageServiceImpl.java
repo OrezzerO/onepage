@@ -1,8 +1,8 @@
-package com.daniel.springbootwebredsicouchbasemybatis.service.impl;
+package com.daniel.onepage.service.impl;
 
-import com.daniel.springbootwebredsicouchbasemybatis.bean.entity.Page;
-import com.daniel.springbootwebredsicouchbasemybatis.repository.PageRepository;
-import com.daniel.springbootwebredsicouchbasemybatis.service.PageService;
+import com.daniel.onepage.bean.entity.Page;
+import com.daniel.onepage.repository.PageRepository;
+import com.daniel.onepage.service.PageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -24,5 +24,10 @@ public class PageServiceImpl implements PageService{
     @Override
     public Page findByTitle(String title){
         return pageRepository.findByTitle(title);
+    }
+
+    @Override
+    public Page save(Page page) {
+        return pageRepository.save(page);
     }
 }

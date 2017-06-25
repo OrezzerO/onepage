@@ -1,6 +1,6 @@
-package com.daniel.springbootwebredsicouchbasemybatis.service;
+package com.daniel.onepage.service;
 
-import com.daniel.springbootwebredsicouchbasemybatis.bean.entity.Page;
+import com.daniel.onepage.bean.entity.Page;
 
 /**
  * Created by zhangchengxi on 2017/6/25.

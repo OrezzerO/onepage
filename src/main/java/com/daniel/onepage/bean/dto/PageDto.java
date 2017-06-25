@@ -1,4 +1,4 @@
-package com.daniel.springbootwebredsicouchbasemybatis.bean.dto;
+package com.daniel.onepage.bean.dto;
 
 /**
  * Created by zhangchengxi on 2017/6/25.

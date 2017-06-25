@@ -1,7 +1,7 @@
-package com.daniel.springbootwebredsicouchbasemybatis.controller;
+package com.daniel.onepage.controller;
 
-import com.daniel.springbootwebredsicouchbasemybatis.bean.entity.Page;
-import com.daniel.springbootwebredsicouchbasemybatis.service.PageService;
+import com.daniel.onepage.bean.entity.Page;
+import com.daniel.onepage.service.PageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

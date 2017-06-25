@@ -1,4 +1,4 @@
-package com.daniel.springbootwebredsicouchbasemybatis;
+package com.daniel.onepage;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class SpringBootWebRedsiCouchbaseMybatisApplication {
+public class OnePageApplication {
 
     @RequestMapping("/")
     String home() {
@@ -16,6 +16,6 @@ public class SpringBootWebRedsiCouchbaseMybatisApplication {
 
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootWebRedsiCouchbaseMybatisApplication.class, args);
+        SpringApplication.run(OnePageApplication.class, args);
     }
 }

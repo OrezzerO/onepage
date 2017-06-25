@@ -1,6 +1,6 @@
-package com.daniel.springbootwebredsicouchbasemybatis.repository;
+package com.daniel.onepage.repository;
 
-import com.daniel.springbootwebredsicouchbasemybatis.bean.entity.Page;
+import com.daniel.onepage.bean.entity.Page;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
 /**
@@ -10,5 +10,5 @@ public interface PageRepository extends PagingAndSortingRepository<Page,Integer>
 
     Page findByTitle(String title);
 
-    Iterable<Page> findByTitleLiked(String title);
+    Iterable<Page> findByTitleContaining(String title);
 }
