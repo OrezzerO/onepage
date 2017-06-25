@@ -13,6 +13,7 @@ public class PageRepositoryTest extends OnePageApplicationTests {
     @Autowired
     private PageRepository pageRepository;
 
+
     @Test
     public void testFindAll() {
         Iterable<Page> all = pageRepository.findAll();
